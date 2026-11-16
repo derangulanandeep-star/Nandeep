@@ -13,6 +13,7 @@ import { HeroSection } from './components/HeroSection';
 import { JourneySection } from './components/JourneySection';
 import { Navbar } from './components/Navbar';
 import { ProjectsSection } from './components/ProjectsSection';
+import { ScrollProgress } from './components/ScrollProgress';
 import { NAV_ITEMS, ThemeMode } from './data/portfolio';
 
 function getInitialTheme(): ThemeMode {
@@ -108,6 +109,7 @@ export default function App() {
   return (
     <MotionConfig reducedMotion="user">
       <div className="min-h-screen bg-[var(--bg-canvas)] text-[var(--text-primary)]">
+        <ScrollProgress />
         <Navbar
           theme={theme}
           onToggleTheme={handleToggleTheme}
