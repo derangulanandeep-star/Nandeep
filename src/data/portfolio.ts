@@ -1,3 +1,9 @@
+import developerPortfolioImg from '../assets/images/project_developer_portfolio_1794809478449.jpg';
+import gradeCalculatorImg from '../assets/images/project_grade_calculator_1794809478209.jpg';
+import hackathonRadarImg from '../assets/images/project_hackathon_radar_1794809477651.jpg';
+import nanexAiImg from '../assets/images/project_nanex_ai_1794809476570.jpg';
+import weatherNewsImg from '../assets/images/project_weather_news_1794809477875.jpg';
+
 export type ThemeMode = 'dark' | 'light';
 
 export interface NavItem {
@@ -214,7 +220,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
       'Architected for extensible local and automated action triggers',
     ],
     technologies: ['Python', 'Automation', 'Desktop Workflow'],
-    image: '/src/assets/images/project_nanex_ai_1794809476570.jpg',
+    image: nanexAiImg,
     imageAlt:
       'Minimalist matte charcoal and brushed silver hardware concept representing Nanex AI',
     liveUrl: null,
@@ -235,7 +241,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
       'Automated notification delivery built for consistent awareness',
     ],
     technologies: ['n8n', 'JavaScript', 'Workflow Automation'],
-    image: '/src/assets/images/project_hackathon_radar_1794809477651.jpg',
+    image: hackathonRadarImg,
     imageAlt:
       'Concentric brushed aluminum and smoked glass rings representing Hackathon Radar AI',
     liveUrl: null,
@@ -256,7 +262,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
       'Built to replace fragmented morning checks with one calm digest',
     ],
     technologies: ['n8n', 'Workflow Automation', 'JavaScript'],
-    image: '/src/assets/images/project_weather_news_1794809477875.jpg',
+    image: weatherNewsImg,
     imageAlt:
       'Fluted optical glass prism refracting light onto dark stone representing the Weather and News Assistant',
     liveUrl: null,
@@ -276,7 +282,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
       'Built as a practical academic utility during early CS coursework',
     ],
     technologies: ['Python', 'HTML', 'CSS', 'JavaScript'],
-    image: '/src/assets/images/project_grade_calculator_1794809478209.jpg',
+    image: gradeCalculatorImg,
     imageAlt:
       'Matte charcoal geometric blocks with brushed steel vernier caliper representing the Student Grade Calculator',
     liveUrl: null,
@@ -297,7 +303,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
       'Centralized typed data architecture for effortless ongoing updates',
     ],
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-    image: '/src/assets/images/project_developer_portfolio_1794809478449.jpg',
+    image: developerPortfolioImg,
     imageAlt:
       'Open architectural monograph beside milled dark aluminum on stone representing the Developer Portfolio',
     liveUrl: null,
